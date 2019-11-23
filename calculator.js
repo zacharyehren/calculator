@@ -3,7 +3,7 @@ const calculator = (calc) => {
     let number = calcArray[0];
     let finalArray = [];
 
-    // break out numbers and operators
+    // separate numbers and operators
     for (let i = 1; i < calcArray.length; i++) {
         let char = calcArray[i];
 
